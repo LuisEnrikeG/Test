@@ -31,7 +31,9 @@ public class ToolsQA_AutomatedTest {
 		
 	}
 	
-	/**Paso a paso de la prueba
+	/** Test de prueba
+	 * Paso a paso de la prueba
+	 * 
 	 * 1. Ingresar la URL https://demoqa.com/
 	 * 2. Hacer click en "Form"
 	 * 3. Hacer click en "Elements"
@@ -41,12 +43,15 @@ public class ToolsQA_AutomatedTest {
 	 * 7. Ingresar dirección en campo "Current Address"
 	 * 8. Ingresar dirección en campo "Permanent Address"
 	 * 9. Hacer click en botón "Submit"
-	 * *Resultado Esperado
+	 * 
+	 * Resultado Esperado
+	 * 
 	 * Imprime como resultado la informacion ingresada
 	 * 		Name:Luis Enrique Gonzalez
 			Email:prueba@test.cl
 			Current Address :Santiago
-			Permananet Address :Chile*/
+			Permananet Address :Chile
+	 */
 	
 	@Test
 	
