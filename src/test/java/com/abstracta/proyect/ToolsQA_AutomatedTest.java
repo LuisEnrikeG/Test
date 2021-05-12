@@ -77,6 +77,7 @@ public class ToolsQA_AutomatedTest {
 		JavascriptExecutor scroll = (JavascriptExecutor) driver;
 		scroll.executeScript("window.scrollBy(0," + String.valueOf(cant * 55) + ")", "");
 		
+		
 	}
 		
 
