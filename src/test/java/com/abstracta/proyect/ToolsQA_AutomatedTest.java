@@ -68,6 +68,7 @@ public class ToolsQA_AutomatedTest {
 			
 	//Ingreso datos del formulario
 		
+		Thread.sleep(3000);
 		driver.findElement(UserNameLocator).sendKeys("Luis Enrique Gonzalez");
 		driver.findElement(EmailLocator).sendKeys("prueba@test.cl");
 		driver.findElement(CurrentAddressLocator).sendKeys("Santiago");
