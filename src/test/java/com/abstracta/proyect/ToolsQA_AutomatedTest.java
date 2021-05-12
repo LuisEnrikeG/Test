@@ -31,6 +31,23 @@ public class ToolsQA_AutomatedTest {
 		
 	}
 	
+	/**Paso a paso de la prueba
+	 * 1. Ingresar la URL https://demoqa.com/
+	 * 2. Hacer click en "Form"
+	 * 3. Hacer click en "Elements"
+	 * 4. Hacer click en "Text Box"
+	 * 5. Ingresar nombre en campo "Full Name"
+	 * 6. Ingresar mail en campo "Email"
+	 * 7. Ingresar dirección en campo "Current Address"
+	 * 8. Ingresar dirección en campo "Permanent Address"
+	 * 9. Hacer click en botón "Submit"
+	 * *Resultado Esperado
+	 * Imprime como resultado la informacion ingresada
+	 * 		Name:Luis Enrique Gonzalez
+			Email:prueba@test.cl
+			Current Address :Santiago
+			Permananet Address :Chile*/
+	
 	@Test
 	
 	//Ingreso al formulario
@@ -76,7 +93,6 @@ public class ToolsQA_AutomatedTest {
 	public void Scroll(WebDriver driver, int cant){
 		JavascriptExecutor scroll = (JavascriptExecutor) driver;
 		scroll.executeScript("window.scrollBy(0," + String.valueOf(cant * 55) + ")", "");
-		
 		
 	}
 		
