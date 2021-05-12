@@ -31,7 +31,7 @@ public class ToolsQA_AutomatedTest {
 		
 	}
 	
-	/** Test de prueba
+	/** Test de prueba Inicial
 	 * Paso a paso de la prueba
 	 * 
 	 * 1. Ingresar la URL https://demoqa.com/
